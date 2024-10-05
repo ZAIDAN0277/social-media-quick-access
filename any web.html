@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social Media Quick Access</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f7f7f7;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+        h1 {
+            color: #333;
+        }
+        .container {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 20px;
+            padding: 20px;
+        }
+        .container a {
+            background-color: #fff;
+            padding: 20px;
+            text-decoration: none;
+            color: #333;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: background-color 0.3s;
+            font-size: 18px;
+        }
+        .container a:hover {
+            background-color: #eee;
+        }
+        .feedback-form {
+            margin-top: 40px;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            display: inline-block;
+            width: 300px;
+        }
+        .feedback-form input, .feedback-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+        .feedback-form button {
+            padding: 10px 20px;
+            background-color: #28a745;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .feedback-form button:hover {
+            background-color: #218838;
+        }
+    </style>
+</head>
+<body>
+    <h1>Quick Access to Social Media Platforms</h1>
+    
+    <div class="container">
+        <a href="https://www.youtube.com" target="_blank">YouTube</a>
+        <a href="https://www.instagram.com" target="_blank">Instagram</a>
+        <a href="https://www.twitter.com" target="_blank">Twitter</a>
+        <a href="https://www.pinterest.com" target="_blank">Pinterest</a>
+        <a href="https://www.spotify.com" target="_blank">Spotify</a>
+        <a href="https://www.roblox.com" target="_blank">Roblox</a>
+        <a href="https://studio.roblox.com" target="_blank">Roblox Studio</a>
+        <a href="https://www.tiktok.com" target="_blank">TikTok</a>
+        <a href="https://www.google.com" target="_blank">Google</a>
+        <a href="https://www.facebook.com" target="_blank">Facebook</a>
+        <a href="https://www.snapchat.com" target="_blank">Snapchat</a>
+        <a href="https://www.linkedin.com" target="_blank">LinkedIn</a>
+        <a href="https://www.tumblr.com" target="_blank">Tumblr</a>
+        <a href="https://www.twitch.tv" target="_blank">Twitch</a>
+        <a href="https://www.reddit.com" target="_blank">Reddit</a>
+        <a href="https://www.discord.com" target="_blank">Discord</a>
+        <a href="https://www.github.com" target="_blank">GitHub</a>
+        <a href="https://www.quora.com" target="_blank">Quora</a>
+        <a href="https://www.medium.com" target="_blank">Medium</a>
+        <a href="https://www.tinder.com" target="_blank">Tinder</a>
+    </div>
+
+    <div class="feedback-form">
+        <h2>Feedback Form</h2>
+        <form action="mailto:zaidanuzumaki333@gmail.com" method="post" enctype="text/plain">
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Your Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Your Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+            <button type="submit">Send Feedback</button>
+        </form>
+    </div>
+</body>
+</html>
